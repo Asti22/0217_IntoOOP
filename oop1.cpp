@@ -7,7 +7,7 @@ class Mahasiswa{
     int umur;
     string jurusan;
 
-    void ouput (){
+    void output (){
         cout <<"Nama:" <<nama <<endl;
         cout <<"Umur:" <<umur<<endl;
         cout <<"Jurusan:" <<jurusan<<endl;
@@ -48,7 +48,10 @@ int main () {
     mhs.jurusan = "Teknologi Informasi";
     mhs.output();
 
-    mk.input
+    mk.input();
+    mk.output();
+
+    return 0;
 
 
 };
